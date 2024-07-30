@@ -1,0 +1,138 @@
+/* 첫번째 섹션 */
+main {
+  width: 100%;
+  height: fit-content;
+  padding-top: 80px;
+}
+.con1 {
+  width: 100%;
+  height: 1420px;
+}
+.con1_up {
+  width: 100%;
+  height: 708px;
+  box-sizing: border-box;
+  padding-top: 210px;
+}
+.con1_up > h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ea6a63;
+  text-align: center;
+}
+.con1_up > h3 {
+  font-size: 42px;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+  margin-top: 12px;
+}
+.con1_up > p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #828282;
+  text-align: center;
+  line-height: 43px;
+  margin-top: 20px;
+}
+.con1_down {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+}
+.con1_down_txt {
+  margin-top: 380px;
+  margin-left: 60px;
+}
+.con1_down_txt > h2 {
+  font-size: 54px;
+  font-weight: 700;
+}
+.con1_down_txt > p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ea6a63;
+  margin-top: 20px;
+}
+.down {
+  margin-top: 410px;
+  margin-left: 210px;
+}
+/* 두번째 섹션 */
+.con2 {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+}
+.con2 > div {
+  width: 640px;
+  height: 100%;
+  color: #fff;
+}
+.ranking {
+  background-image: url(/img/sub-introduce/ranking.png);
+  background-repeat: no-repeat;
+}
+.board {
+  background-image: url(/img/sub-introduce/board.png);
+  background-repeat: no-repeat;
+}
+.q_a {
+  background-image: url(/img/sub-introduce/q_a.png);
+  background-repeat: no-repeat;
+}
+.con2_txt {
+  margin-top: 90px;
+  margin-left: 126px;
+}
+.board > .con2_txt {
+  margin-top: 700px;
+}
+.con2_txt > h3 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.con2_txt > h4 {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 22px;
+  margin-top: 54px;
+}
+/* 세번째 섹션 */
+.con3 {
+  width: 100%;
+  height: 652px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.con3 > p {
+  margin: 0 auto;
+  font-size: 32px;
+  font-weight: 550;
+  line-height: 63px;
+  color: #464646;
+}
+/* 네번째 섹션 */
+.con4 {
+  width: 100%;
+  height: 1053px;
+  background-image: url(/img/sub-introduce/sincerely.png);
+  color: #fff;
+  font-family: "Pretendard";
+  box-sizing: border-box;
+  padding: 150px 0 0 150px;
+}
+
+.con4 > h2 {
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 90px;
+}
+.con4 > h3 {
+  font-size: 28px;
+  font-weight: 200;
+  line-height: 40px;
+  margin-top: 20px;
+}

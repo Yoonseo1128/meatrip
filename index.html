@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>미트립</title>
+    <!-- css초기화 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/layout.css" />
+    <!-- 파비콘 -->
+    <link rel="icon" href="/img/icons/favicon-16x16.png" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="header_con">
+        <!-- 로고 -->
+        <h1>
+          <a href="/"></a>
+        </h1>
+        <!--메뉴 -->
+        <nav>
+          <ul>
+            <li><a href="./introduce.html">미트립 소개</a></li>
+            <li><a href="./ranking.html">미트립 랭킹</a></li>
+            <li><a href="./board1.html">추천 게시판</a></li>
+            <li><a href="./board2.html">자유 게시판</a></li>
+          </ul>
+        </nav>
+        <!-- 검색 -->
+        <div class="search_bar">
+          <div class="search">
+            <label for="search">
+              <input
+                type="text"
+                name="search"
+                id="search"
+                placeholder="검색어를 입력해주세요."
+              />
+            </label>
+          </div>
+          <div class="search_icon"></div>
+        </div>
+        <!-- 로그인 회원가입 -->
+        <div class="login">
+          <a href="./login.html">로그인</a>
+          <a href="#">회원가입</a>
+        </div>
+      </div>
+    </header>
+    <!-- 컨텐츠 -->
+    <main>
+      <!-- 메인비주얼 -->
+      <section class="main_v">
+        <div class="main_visual">
+          <div class="mv_txt">
+            <h2>
+              고기에 진심인 사람 모여라!<br />
+              고기 맛집 커뮤니티
+            </h2>
+            <p>
+              미트립은 진짜 고기 맛집을 찾는 사람들을 위한 커뮤니티 입니다.<br />
+              다양한 사람들과 소통하며 본인만의 맛집을 찾아보세요.
+            </p>
+            <div class="introduce_btn">
+              <a href="./introduce.html"><p>미트립 소개</p></a>
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="p_5000">
+          <div class="p_5000con">
+            <p>
+              회원가입 하시면 미트립 제휴 매장에서 사용할 수 있는
+              <span>5000P</span> 쿠폰을 드립니다.
+            </p>
+            <p><a href="#">회원가입 하러가기</a></p>
+          </div>
+        </div>
+      </section>
+      <!-- 컨텐츠1 -->
+      <section class="con1">
+        <div class="con1_wrapper">
+          <div class="con1_1">
+            <div>
+              <img src="/img/main/unsplash_Ssb24Sick7E.png" alt="랭킹" />
+            </div>
+            <div class="con1_txt">
+              <h2>
+                미트립이<br />
+                제공하는 서비스
+              </h2>
+              <div class="con1_txt_under">
+                <h3>01</h3>
+                <h4>미트립 랭킹</h4>
+                <p>
+                  미트립은 다양한 사용자들의 데이터베이스와 리뷰, 평점을 <br />
+                  토대로 만들어진 ‘미트립 랭킹’ 을 제공합니다. <br />
+                  미트립 랭킹을 통해 원하는 맛집들의 정보를 알아보세요.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="con1_2">
+            <div>
+              <img src="/img/main/unsplash_s-Z-h0fEiBM.png" alt="게시" />
+            </div>
+          </div>
+          <div class="con1_3">
+            <div>
+              <img src="/img/main/unsplash_8eSrC43qdro.png" alt="큐앤에이" />
+            </div>
+          </div>
+        </div>
+        <div class="arrow">
+          <div class="arrow_left"></div>
+          <div class="arrow_right"></div>
+        </div>
+      </section>
+      <!-- 컨텐츠2 -->
+      <section class="con2">
+        <div class="con2_wrapper">
+          <div class="con2_txt">
+            <div class="ranking">
+              <h2>Ranking</h2>
+              <h3>미트립 랭킹</h3>
+            </div>
+            <nav>
+              <ul>
+                <li><span>전체</span></li>
+                <li>지역별</li>
+                <li>리뷰순</li>
+                <li>좋아요순</li>
+              </ul>
+            </nav>
+          </div>
+          <div class="con2_sec">
+            <div class="con2_sec_1">
+              <div><img src="/img/main/image 7.png" alt="몽탄" /></div>
+              <div class="con2_sec_txt">
+                <div class="con2_sec_txt_left">
+                  <h2>몽탄</h2>
+                  <h3>삼각지역 우대갈비 맛집</h3>
+                  <h4>서울 용산구 백범로99길 50</h4>
+                  <h5>리뷰 356건</h5>
+                </div>
+                <div class="con2_sec_txt_right">
+                  <a href="./shop.html"><div class="more_btn"></div></a>
+                  <div class="number">
+                    <div class="heart"></div>
+                    <p>129</p>
+                    <div class="good"></div>
+                    <p>478</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="con2_sec_2">
+              <div><img src="/img/main/image 8.png" alt="고공" /></div>
+              <div class="con2_sec_txt">
+                <div class="con2_sec_txt_left">
+                  <h2>고공</h2>
+                  <h3>성수에 가면 여기로</h3>
+                  <h4>서울 성동구 왕십리로8길 10</h4>
+                  <h5>리뷰 156건</h5>
+                </div>
+                <div class="con2_sec_txt_right">
+                  <div class="more_btn"></div>
+                  <div class="number">
+                    <div class="heart"></div>
+                    <p>127</p>
+                    <div class="good"></div>
+                    <p>256</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="con2_sec_3">
+              <div><img src="/img/main/image 9.png" alt="방이돈가" /></div>
+              <div class="con2_sec_txt">
+                <div class="con2_sec_txt_left">
+                  <h2>방이돈가</h2>
+                  <h3>잠실 방이동 초벌 삼겹살</h3>
+                  <h4>서울 송파구 오금로15길 4 1층</h4>
+                  <h5>리뷰 299건</h5>
+                </div>
+                <div class="con2_sec_txt_right">
+                  <div class="more_btn"></div>
+                  <div class="number">
+                    <div class="heart"></div>
+                    <p>187</p>
+                    <div class="good"></div>
+                    <p>320</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="con2_sec_4">
+              <div><img src="/img/main/image 10.png" alt="숙성도" /></div>
+              <div class="con2_sec_txt">
+                <div class="con2_sec_txt_left">
+                  <h2>숙성도 노형본관</h2>
+                  <h3>제주 명물 ‘숙성도’ 본점</h3>
+                  <h4>제주 제주시 원노형로 41 1층</h4>
+                  <h5>리뷰 789건</h5>
+                </div>
+                <div class="con2_sec_txt_right">
+                  <div class="more_btn"></div>
+                  <div class="number">
+                    <div class="heart"></div>
+                    <p>986</p>
+                    <div class="good"></div>
+                    <p>344</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide_bar">
+            <div></div>
+          </div>
+          <div class="next"></div>
+        </div>
+      </section>
+      <!-- 라인배너 -->
+      <section class="line">
+        <h2>미트립이 추천하는 <span>‘경기도 군포시 당동’</span> 맛집</h2>
+        <div class="line_btn">
+          <button>현위치로 설정</button>
+          <button>다른지역 선택</button>
+        </div>
+      </section>
+      <!-- 컨텐츠 3 -->
+      <section class="con3">
+        <div class="con3_wrapper">
+          <div class="con3_sec_1">
+            <div><img src="/img/main/image 12.png" alt="두툼돈" /></div>
+            <div class="con2_sec_txt">
+              <div class="con2_sec_txt_left">
+                <h2>두툼돈288</h2>
+                <h3>시그니처 눈꽃 살치살</h3>
+                <h4>경기 군포시 군포로456번길 6 1층 102호</h4>
+                <h5>리뷰 112건</h5>
+              </div>
+              <div class="con2_sec_txt_right">
+                <div class="more_btn"></div>
+                <div class="number">
+                  <div class="heart"></div>
+                  <p>100</p>
+                  <div class="good"></div>
+                  <p>232</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="con3_sec_2">
+            <div><img src="/img/main/image 15.png" alt="용호" /></div>
+            <div class="con2_sec_txt">
+              <div class="con2_sec_txt_left">
+                <h2>용호정육점 식당</h2>
+                <h3>합리적인 가격으로 즐기는 한우</h3>
+                <h4>경기 군포시 용호1로2번길 47-7 지하1층</h4>
+                <h5>리뷰 189건</h5>
+              </div>
+              <div class="con2_sec_txt_right">
+                <div class="more_btn"></div>
+                <div class="number">
+                  <div class="heart"></div>
+                  <p>233</p>
+                  <div class="good"></div>
+                  <p>187</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="con3_sec_3">
+            <div><img src="/img/main/image 16.png" alt="삼겹식당" /></div>
+            <div class="con2_sec_txt">
+              <div class="con2_sec_txt_left">
+                <h2>삼겹식당</h2>
+                <h3>가성비 국내산 삼겹살</h3>
+                <h4>경기 군포시 고산로 246 1층 101호</h4>
+                <h5>리뷰 108건</h5>
+              </div>
+              <div class="con2_sec_txt_right">
+                <div class="more_btn"></div>
+                <div class="number">
+                  <div class="heart"></div>
+                  <p>156</p>
+                  <div class="good"></div>
+                  <p>199</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#">전체보기</a>
+      </section>
+      <!-- 컨텐츠 4 -->
+      <section class="con4">
+        <div class="con4_box">
+          <div class="con4_sec">
+            <h2>추천 게시판</h2>
+            <h3>나만 아는 맛집을<br />추천해주세요!</h3>
+            <h4>
+              평소 자주가는 고기집이나<br />
+              우리 동네에 나만 아는 맛집을 소개해주세요.
+            </h4>
+            <div class="write_btn"><a href="./board1.html">글 쓰러가기</a></div>
+          </div>
+          <div class="con4_sec">
+            <h2>자유 게시판</h2>
+            <h3>
+              꿀 정보나 의견들을<br />
+              자유롭게 이야기 해보세요!
+            </h3>
+            <h4>
+              고기집에 대한 다양한 이야기들을<br />
+              자유롭게 나눌 수 있는 게시판입니다.
+            </h4>
+            <div class="write_btn"><a href="./board2.html">글 쓰러가기</a></div>
+          </div>
+        </div>
+      </section>
+      <!-- 마지막 섹션 -->
+      <section class="con5">
+        <div class="con5_wrapper">
+          <div class="con5_txt">
+            <h2>Review</h2>
+            <h3>미트립 리얼후기</h3>
+            <a href="#">전체보기</a>
+          </div>
+          <div class="con5_sec">
+            <div class="con5_sec1">
+              <div><img src="/img/main/image 17-5.png" alt="반찬" /></div>
+              <div class="con5_sec_txt">
+                <div class="con5_sec_txt1">
+                  <div class="star">
+                    <img src="/img/icons/STAR.png" alt="" />
+                  </div>
+                  <h3>
+                    반찬도 너무 잘나오고 직원 분들도 친절하셔서<br />
+                    맛있게 식사하고 왔습니다!
+                  </h3>
+                </div>
+                <div class="con5_sec_txt2">
+                  <div class="min_shop">
+                    <img src="/img/main/review1.png" alt="삼돌" />
+                  </div>
+                  <p>
+                    삼돌박이 수라육간<br />
+                    <span
+                      >경기 안양시 동안구 평촌대로223번길31 동안상가 2층</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="con5_sec1">
+              <div><img src="/img/main/image 19.png" alt="반찬" /></div>
+              <div class="con5_sec_txt">
+                <div class="con5_sec_txt1">
+                  <div class="star">
+                    <img src="/img/icons/STAR.png" alt="우대" />
+                  </div>
+                  <h3>
+                    볏집훈연 우대갈비 너무 맛있어요.. <br />
+                    다음에 또 범계오면 올 것 같아요!
+                  </h3>
+                </div>
+                <div class="con5_sec_txt2">
+                  <div class="min_shop">
+                    <img src="/img/main/review1.png" alt="삼돌" />
+                  </div>
+                  <p>
+                    삼돌박이 수라육간<br />
+                    <span
+                      >경기 안양시 동안구 평촌대로223번길31 동안상가 2층</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="con5_sec1">
+              <div><img src="/img/main/image 20.png" alt="점심" /></div>
+              <div class="con5_sec_txt">
+                <div class="con5_sec_txt1">
+                  <div class="star">
+                    <img src="/img/icons/STAR.png" alt="" />
+                  </div>
+                  <h3>
+                    점심 먹으러 방문했는데 직원 분들이 다 구워주셔서<br />
+                    너무 편하게 먹고 왔습니다!
+                  </h3>
+                </div>
+                <div class="con5_sec_txt2">
+                  <div class="min_shop">
+                    <img src="/img/main/review3.png" alt="준" />
+                  </div>
+                  <p>
+                    준식당<br />
+                    <span
+                      >경기 안양시 동안구 평촌대로227번길 48 승진빌딩 1층
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="con5_sec1">
+              <div><img src="/img/main/image 17-4.png" alt="납득" /></div>
+              <div class="con5_sec_txt">
+                <div class="con5_sec_txt1">
+                  <div class="star">
+                    <img src="/img/icons/STAR.png" alt="" />
+                  </div>
+                  <h3>
+                    웨이팅 두시간 하고 먹었는데 기다림이 납득<br />이 되는
+                    맛이었습니다...
+                  </h3>
+                </div>
+                <div class="con5_sec_txt2">
+                  <div class="min_shop">
+                    <img src="/img/main/review4.png" alt="금" />
+                  </div>
+                  <p>
+                    금돼지식당<br />
+                    <span>서울 중구 다산로 149</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="con5_sec1">
+              <div><img src="/img/main/image 17-3.png" alt="목살" /></div>
+              <div class="con5_sec_txt">
+                <div class="con5_sec_txt1">
+                  <div class="star">
+                    <img src="/img/icons/STAR.png" alt="" />
+                  </div>
+                  <h3>
+                    듣던 대로 너무 맛있었습니다!<br />
+                    목살 꼭 드세요~~
+                  </h3>
+                </div>
+                <div class="con5_sec_txt2">
+                  <div class="min_shop">
+                    <img src="/img/main/review5.png" alt="꿉당" />
+                  </div>
+                  <p>
+                    꿉당<br />
+                    <span>서울 서초구 강남대로 615 1층</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="con5_sec1">
+              <div><img src="/img/main/image 17-2.png" alt="우연" /></div>
+              <div class="con5_sec_txt">
+                <div class="con5_sec_txt1">
+                  <div class="star">
+                    <img src="/img/icons/STAR.png" alt="" />
+                  </div>
+                  <h3>
+                    우연히 들어가서 먹었는데 인생맛집 등극입니다... <br />
+                    안양오면 꼭 드세요
+                  </h3>
+                </div>
+                <div class="con5_sec_txt2">
+                  <div class="min_shop">
+                    <img src="/img/main/review6.png" alt="재본소" />
+                  </div>
+                  <p>
+                    재본소<br />
+                    <span>경기 안양시 만안구 장내로149번길 9 1층</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="con5_sec1">
+              <div><img src="/img/main/image 17-1.png" alt="특수" /></div>
+              <div class="con5_sec_txt">
+                <div class="con5_sec_txt1">
+                  <div class="star">
+                    <img src="/img/icons/STAR.png" alt="" />
+                  </div>
+                  <h3>
+                    특수 부위 찐 맛집입니다! 사장님도 너무 친절하세<br />요 ㅎㅎ
+                  </h3>
+                </div>
+                <div class="con5_sec_txt2">
+                  <div class="min_shop">
+                    <img src="/img/main/review7.png" alt="대포" />
+                  </div>
+                  <p>
+                    대포집 논현본점<br />
+                    <span>서울 강남구 강남대로114길 15 1층</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="con5_sec1">
+              <div><img src="/img/main/image 17.png" alt="서울" /></div>
+              <div class="con5_sec_txt">
+                <div class="con5_sec_txt1">
+                  <div class="star">
+                    <img src="/img/icons/STAR.png" alt="" />
+                  </div>
+                  <h3>
+                    서울 3대 고기집이라고 해서 멀리에서 왔는데<br />
+                    후회없는 맛이었습니다!!!
+                  </h3>
+                </div>
+                <div class="con5_sec_txt2">
+                  <div class="min_shop">
+                    <img src="/img/main/review8.png" alt="육전" />
+                  </div>
+                  <p>
+                    육전식당 1호점<br />
+                    <span>서울 동대문구 난계로30길 16</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer>
+      <div><img src="/img/icons/foot_logo.png" alt="" /></div>
+      <p>Copyright &copy; 2024 Meatrip</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,211 @@
+/* 전체영역 */
+main {
+  width: 100%;
+  height: fit-content;
+  padding-top: 80px;
+}
+
+/* 배너 */
+.banner {
+  width: 100%;
+  height: 410px;
+  background-image: url(/img/sub-board/wood_black.png);
+  background-repeat: no-repeat;
+  background-position: 0 -360px;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 145px 200px;
+}
+.banner h2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.banner p {
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 23px;
+}
+/* 검색 */
+.wrapper {
+  width: 1400px;
+  height: fit-content;
+  margin: 0 auto;
+}
+form {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 120px;
+  margin-left: auto;
+  display: flex;
+  column-gap: 20px;
+}
+
+select {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #dedede;
+  font-size: 15px;
+  font-weight: 500;
+  color: #6c6c6c;
+  font-family: "Noto Sans KR", sans-serif;
+  width: auto;
+  height: 40px;
+}
+
+form input {
+  border: none;
+  outline: none;
+  width: 467px;
+  height: 40px;
+  border-bottom: 1px solid #dedede;
+  font-size: 15px;
+  font-weight: 500;
+  color: #b0b0b0;
+  font-family: "Noto Sans KR", sans-serif;
+  box-sizing: border-box;
+  padding-left: 30px;
+}
+form input::placeholder {
+  color: #b0b0b0;
+}
+form button {
+  border: none;
+  outline: none;
+  width: 90px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #ea6a63;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ea6a63;
+  font-family: "Noto Sans KR", sans-serif;
+  cursor: pointer;
+  transition: 0.3s;
+}
+form button:hover {
+  background-color: #ea6a63;
+  color: #fff;
+}
+/* 총00건 */
+.total {
+  width: 1400px;
+  height: fit-content;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.total h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.total h3 span {
+  color: #ea6a63;
+}
+.soon {
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  color: #aaa;
+  cursor: pointer;
+}
+.soon > p:first-child {
+  margin-right: 20px;
+  color: #000;
+}
+.soon > p:last-child:hover {
+  color: #000;
+}
+/* 게시판 */
+table {
+  width: 1400px;
+  height: fit-content;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-top: 70px;
+}
+thead {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid #000;
+}
+thead th {
+  line-height: 70px;
+  font-size: 16px;
+  font-weight: 500;
+}
+tbody {
+  width: 100%;
+  text-align: center;
+}
+tbody tr {
+  height: 70px;
+  line-height: 70px;
+  border-bottom: 1px solid #dedede;
+  font-size: 16px;
+}
+tbody tr:hover {
+  background-color: #fdfdfd;
+}
+tbody tr td:nth-child(3),
+tbody tr td:nth-child(4) {
+  font-size: 14px;
+  color: #8f8f8f;
+}
+/* 글쓰러가기 버튼 */
+.board button {
+  width: 150px;
+  height: 40px;
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: transparent;
+  border: 1px solid #ea6a63;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ea6a63;
+  margin-top: 50px;
+  margin-left: 1250px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.board button:hover {
+  background-color: #ea6a63;
+  color: #fff;
+}
+/* 페이지 */
+.page {
+  width: 280px;
+  height: auto;
+  margin-left: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+.page > p > a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #aaa;
+  transition: 0.3s;
+}
+.page > p > a > span {
+  color: #000;
+}
+.page > p > a:hover {
+  color: #000;
+}
+.small_next {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  background-image: url(/img/icons/page_next.png);
+  background-repeat: no-repeat;
+  background-position: 2px 4px;
+  transition: 0.3s;
+}
+.small_next:hover {
+  background-image: url(/img/icons/page_next_hover.png);
+  background-repeat: no-repeat;
+}

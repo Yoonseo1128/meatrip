@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>로그인</title>
+    <!-- css초기화 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/login.css" />
+    <!-- 파비콘 -->
+    <link rel="icon" href="/img/icons/favicon-16x16.png" />
+  </head>
+  <body>
+    <!-- 로고 -->
+    <div class="logo">
+      <h1>
+        <a href="./index.html"><img src="/img/icons/Logo.png" alt="로고" /></a>
+      </h1>
+    </div>
+    <!-- 로그인 박스 -->
+    <div class="login">
+      <form action="#">
+        <div class="id_pw">
+          <label for="user_id">
+            <input
+              type="text"
+              id="user_id"
+              name="user_id"
+              placeholder="아이디"
+              required
+              autofocus
+            />
+          </label>
+        </div>
+        <div class="id_pw">
+          <label for="user_pw">
+            <input
+              type="password"
+              id="user_pw"
+              name="user_pw"
+              minlength="8"
+              maxlength="16"
+              placeholder="비밀번호"
+              required
+            />
+          </label>
+        </div>
+        <div class="check">
+          <label for="user_check">
+            <input type="checkbox" />
+            로그인 상태 유지
+          </label>
+        </div>
+        <button type="button" class="login_btn">로그인</button>
+      </form>
+      <!-- sns로그인 -->
+      <div class="sns">
+        <p>sns 로그인</p>
+        <div class="google">
+          <div class="g_icon">
+            <img src="/img/sub-login/google.png" alt="구글" />
+          </div>
+          <p>구글</p>
+        </div>
+        <div class="kakao">
+          <div class="k_icon">
+            <img src="/img/sub-login/kakao.png" alt="카카오" />
+          </div>
+          <p>카카오</p>
+        </div>
+        <div class="naver">
+          <div class="n_icon">
+            <img src="/img/sub-login/naver.png" alt="네이버" />
+          </div>
+          <p>네이버</p>
+        </div>
+      </div>
+    </div>
+    <!-- 아이디 찾기 -->
+    <div class="found">
+      <a href="">아이디 찾기</a>
+      <a href="">비밀번호 찾기</a>
+      <a href="">회원가입</a>
+    </div>
+  </body>
+</html>
