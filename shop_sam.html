@@ -14,7 +14,7 @@
     />
     <!-- css -->
     <link rel="stylesheet" href="./css/common.css" />
-    <link rel="stylesheet" href="./css/shop.css" />
+    <link rel="stylesheet" href="./css/shop_sam.css" />
     <!-- 파비콘 -->
     <link rel="icon" href="./img/favicon-16x16.png" />
   </head>
@@ -27,7 +27,7 @@
           <a href="/"></a>
         </h1>
         <!--메뉴 -->
-        <nav>
+        <nav id="menu">
           <ul>
             <li><a href="./introduce.html">미트립 소개</a></li>
             <li><a href="./ranking.html">미트립 랭킹</a></li>
@@ -54,18 +54,34 @@
           <a href="./login.html">로그인</a>
           <a href="#">회원가입</a>
         </div>
+        <!-- 메뉴아이콘(모바일) -->
+        <nav id="menu_m">
+          <ul>
+            <li>
+              <img src="./img/icons/menu.png" alt="메뉴" />
+              <ul class="submenu">
+                <li><a href="./introduce.html">미트립 소개</a></li>
+                <li><a href="./ranking.html">미트립 랭킹</a></li>
+                <li><a href="./board1.html">추천 게시판</a></li>
+                <li><a href="./board2.html">자유 게시판</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
     <div class="wrapper">
       <!-- 사진 슬라이드 -->
       <div class="slide">
-        <div class="sam1"></div>
-        <div class="sam2"><div class="left"></div></div>
-        <div class="sam3"></div>
-        <div class="sam4"></div>
-        <div class="sam5"></div>
-        <div class="sam6"><div class="right"></div></div>
-        <div class="sam7"></div>
+        <div class="slide_con">
+          <div class="sam1"><div class="black_op"></div></div>
+          <div class="sam2"><div class="black_op"></div></div>
+          <div class="sam3"></div>
+          <div class="sam4"></div>
+          <div class="sam5"></div>
+          <div class="sam6"><div class="black_op"></div></div>
+          <div class="sam7"><div class="black_op"></div></div>
+        </div>
       </div>
       <!-- 상단 텍스트 -->
       <div class="con_txt">
@@ -87,7 +103,7 @@
           <div class="four">
             <h2>영업시간</h2>
             <p>매일 11:00 부터 23:00 까지</p>
-            <div class="open"><img src="./img/open.png" alt="" /></div>
+            <div class="open"><img src="/img/icons/open.png" alt="" /></div>
           </div>
           <div class="two">
             <h2>주차</h2>
@@ -135,7 +151,7 @@
           <h2>미트립<span> Review</span></h2>
           <div class="go_review">
             <p>리뷰 쓰러가기</p>
-            <div><img src="./img/small_next.png" alt="다음" /></div>
+            <div><img src="/img/icons/small_next.png" alt="다음" /></div>
           </div>
         </div>
         <div class="review">

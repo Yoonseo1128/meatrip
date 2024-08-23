@@ -17,6 +17,8 @@
 }
 /* 카테고리 */
 .con_txt ul {
+  display: flex;
+  justify-content: space-between;
   width: 306px;
   margin-top: 80px;
   margin-left: 1280px;

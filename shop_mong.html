@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>몽탄</title>
+    <!-- css초기화 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/shop_mong.css" />
+    <!-- 파비콘 -->
+    <link rel="icon" href="./img/favicon-16x16.png" />
+
+    <!-- 슬릭 슬라이드 -->
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+
+    <link rel="stylesheet" href="./css/slick-theme.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="header_con">
+        <!-- 로고 -->
+        <h1>
+          <a href="/"></a>
+        </h1>
+        <!--메뉴 -->
+        <nav id="menu">
+          <ul>
+            <li><a href="./introduce.html">미트립 소개</a></li>
+            <li><a href="./ranking.html">미트립 랭킹</a></li>
+            <li><a href="./board1.html">추천 게시판</a></li>
+            <li><a href="./board2.html">자유 게시판</a></li>
+          </ul>
+        </nav>
+        <!-- 검색 -->
+        <div class="search_bar">
+          <div class="search">
+            <label for="search">
+              <input
+                type="text"
+                name="search"
+                id="search"
+                placeholder="검색어를 입력해주세요."
+              />
+            </label>
+          </div>
+          <div class="search_icon"></div>
+        </div>
+        <!-- 로그인 회원가입 -->
+        <div class="login">
+          <a href="./login.html">로그인</a>
+          <a href="#">회원가입</a>
+        </div>
+        <!-- 메뉴아이콘(모바일) -->
+        <nav id="menu_m">
+          <ul>
+            <li>
+              <img src="./img/icons/menu.png" alt="메뉴" />
+              <ul class="submenu">
+                <li><a href="./introduce.html">미트립 소개</a></li>
+                <li><a href="./ranking.html">미트립 랭킹</a></li>
+                <li><a href="./board1.html">추천 게시판</a></li>
+                <li><a href="./board2.html">자유 게시판</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="wrapper">
+      <!-- 사진 슬라이드 -->
+      <div class="slide">
+        <div class="slide_con">
+          <div class="sam1"></div>
+          <div class="sam2"></div>
+          <div class="sam3"></div>
+          <div class="sam4"></div>
+          <div class="sam5"></div>
+          <div class="sam6"></div>
+          <div class="sam7"></div>
+        </div>
+      </div>
+      <div class="black_op"></div>
+      <div class="black_op_2"></div>
+      <div class="arrow">
+        <div id="arrow_left"></div>
+        <div id="arrow_right"></div>
+      </div>
+      <script>
+        $(function () {
+          $(".slide_con").slick({
+            centerMode: true,
+            centerPadding: "80px",
+            slidesToShow: 5,
+            prevArrow: $("#arrow_left"),
+            nextArrow: $("#arrow_right"),
+            responsive: [
+              {
+                breakpoint: 1440,
+                settings: {
+                  arrows: true,
+                  centerMode: true,
+                  centerPadding: "40px",
+                  slidesToShow: 3,
+                  prevArrow: $("#arrow_left"),
+                  nextArrow: $("#arrow_right"),
+                },
+              },
+              {
+                breakpoint: 480,
+                settings: {
+                  arrows: false,
+                  centerMode: true,
+                  centerPadding: "40px",
+                  slidesToShow: 1,
+                },
+              },
+            ],
+          });
+        });
+      </script>
+      <!-- 상단 텍스트 -->
+      <div class="con_txt">
+        <div class="txt">
+          <h2>몽탄</h2>
+          <h3>삼각지역 우대갈비 맛집</h3>
+          <h4>서울시 용산구 > 삼각지역</h4>
+        </div>
+        <div class="number">
+          <div class="heart"></div>
+          <p>389</p>
+          <div class="good"></div>
+          <p>578</p>
+        </div>
+      </div>
+      <!-- 첫번째 박스 -->
+      <div class="up_box">
+        <div class="box1">
+          <div class="four">
+            <h2>영업시간</h2>
+            <p>매일 12:00 부터 22:00 까지</p>
+            <div class="open"><img src="/img/icons/open.png" alt="" /></div>
+          </div>
+          <div class="two">
+            <h2>주차</h2>
+            <p>주차 불가, 대중교통 이용</p>
+          </div>
+          <div class="two">
+            <h2>메뉴</h2>
+            <div class="menu">
+              <p>우대갈비</p>
+              <p>짚불항정살</p>
+              <p>들기름 유자 샐러드</p>
+            </div>
+            <div class="price">
+              <p>32000원</p>
+              <p>17000원</p>
+              <p>15000원</p>
+            </div>
+          </div>
+          <div class="two">
+            <h2>주소</h2>
+            <p>서울 용산구 백범로99길 50</p>
+          </div>
+          <div class="four">
+            <h2>전화번호</h2>
+            <p>0507-1418-8592</p>
+          </div>
+        </div>
+        <!-- 두번째 박스 -->
+        <div class="locate">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.8107176485187!2d126.96965627587237!3d37.5359589720465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3dea456ce3b%3A0x229049cf34438e54!2z66q97YOE!5e0!3m2!1sko!2skr!4v1722407020566!5m2!1sko!2skr"
+            width="412"
+            height="350"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <div class="found"><a href="#">길 찾기</a></div>
+        </div>
+      </div>
+      <!-- 세번째 박스 -->
+      <div class="box3">
+        <div class="box3_txt">
+          <h2>미트립<span> Review</span></h2>
+          <div class="go_review">
+            <p>리뷰 쓰러가기</p>
+            <div><img src="/img/icons/small_next.png" alt="다음" /></div>
+          </div>
+        </div>
+        <div class="review">
+          <div class="review_con">
+            <h2>yoonseo1128</h2>
+            <p>
+              직원 분들 다 너무 친절하시고 고기랑 밑반찬 다 너무 맛있어서<br />
+              기분 좋은 식사하고 왔습니다 ^^
+            </p>
+            <div class="review_con_btn">
+              <div class="good_number">
+                <div class="good"></div>
+                <h3>100</h3>
+              </div>
+              <div class="q_a">Q & A</div>
+            </div>
+          </div>
+          <div class="review_con">
+            <h2>yoonseo1128</h2>
+            <p>
+              직원 분들 다 너무 친절하시고 고기랑 밑반찬 다 너무 맛있어서<br />
+              기분 좋은 식사하고 왔습니다 ^^
+            </p>
+            <div class="review_con_btn">
+              <div class="good_number">
+                <div class="good"></div>
+                <h3>100</h3>
+              </div>
+              <div class="q_a">Q & A</div>
+            </div>
+          </div>
+          <div class="review_con">
+            <h2>yoonseo1128</h2>
+            <p>
+              직원 분들 다 너무 친절하시고 고기랑 밑반찬 다 너무 맛있어서<br />
+              기분 좋은 식사하고 왔습니다 ^^
+            </p>
+            <div class="review_con_btn">
+              <div class="good_number">
+                <div class="good"></div>
+                <h3>100</h3>
+              </div>
+              <div class="q_a">Q & A</div>
+            </div>
+          </div>
+          <div class="review_con">
+            <h2>yoonseo1128</h2>
+            <p>
+              직원 분들 다 너무 친절하시고 고기랑 밑반찬 다 너무 맛있어서<br />
+              기분 좋은 식사하고 왔습니다 ^^
+            </p>
+            <div class="review_con_btn">
+              <div class="good_number">
+                <div class="good"></div>
+                <h3>100</h3>
+              </div>
+              <div class="q_a">Q & A</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 리뷰 더보기 -->
+      <div class="more">리뷰 더보기</div>
+    </div>
+    <!-- footer -->
+    <footer>
+      <div><img src="/img/icons/foot_logo.png" alt="" /></div>
+      <p>Copyright &copy; 2024 Meatrip</p>
+    </footer>
+  </body>
+</html>

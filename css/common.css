@@ -40,18 +40,18 @@ h1 a {
   margin-top: 25px;
 }
 /* 메뉴 */
-ul {
+#menu ul {
   width: 460px;
   height: 20px;
   display: flex;
   justify-content: space-between;
   margin-top: 32px;
 }
-li a {
+#menu li a {
   font-size: 14px;
   transition: 0.3s;
 }
-li:hover > a {
+#menu li:hover > a {
   color: #ea6a63;
 }
 /* 검색바 */
@@ -127,4 +127,47 @@ footer > p {
   color: #b7b7b7;
   text-align: center;
   margin-top: 10px;
+}
+/* 모바일 메뉴 */
+#menu_m {
+  display: none;
+}
+#menu_m ul {
+  line-height: 100px;
+}
+#menu_m img {
+  width: 30px;
+  height: 30px;
+}
+#menu_m li {
+  position: relative;
+  cursor: pointer;
+}
+.submenu {
+  width: 200px;
+  height: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0 50px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  position: absolute;
+  left: -120px;
+  transition: 0.3s;
+
+  backdrop-filter: blur(3px);
+}
+.submenu > li {
+  line-height: 70px;
+  font-size: 14px;
+  text-align: center;
+}
+.submenu > li a {
+  transition: 0.3s;
+}
+#menu_m li:hover .submenu {
+  height: 285px;
+}
+.submenu > li:hover a {
+  color: #ea6a63;
 }

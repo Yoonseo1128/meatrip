@@ -8,64 +8,77 @@
 .slide {
   width: 100%;
   height: 353px;
+  overflow: hidden;
+  position: relative;
+}
+.slide_con {
+  width: fit-content;
+  height: 100%;
   display: flex;
   justify-content: space-between;
+  position: absolute;
+  left: 50%;
+  margin-left: -1235px;
 }
-
+.black_op {
+  width: 353px;
+  height: 353px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
 .sam1 {
-  background-image: url(../img/sam1.png);
+  background-image: url(/img/sub-shop/sam1.png);
   background-repeat: no-repeat;
-  width: 81px;
-  height: 100%;
+  width: 353px;
+  height: 353px;
 }
 .sam2 {
-  background-image: url(../img/sam2.png);
+  background-image: url(/img/sub-shop/sam2.png);
   background-repeat: no-repeat;
   width: 353px;
   height: 353px;
 }
 .sam3 {
-  background-image: url(../img/sam3.png);
+  background-image: url(/img/sub-shop/sam3.png);
   background-repeat: no-repeat;
   width: 353px;
   height: 353px;
 }
 .sam4 {
-  background-image: url(../img/sam4.png);
+  background-image: url(/img/sub-shop/sam4.png);
   background-repeat: no-repeat;
   width: 353px;
   height: 353px;
 }
 .sam5 {
-  background-image: url(../img/sam5.png);
+  background-image: url(/img/sub-shop/sam5.png);
   background-repeat: no-repeat;
   width: 353px;
   height: 353px;
 }
 .sam6 {
-  background-image: url(../img/sam6.png);
+  background-image: url(/img/sub-shop/sam6.png);
   background-repeat: no-repeat;
   width: 353px;
   height: 353px;
 }
 .sam7 {
-  background-image: url(../img/sam7.png);
+  background-image: url(/img/sub-shop/sam1.png);
   background-repeat: no-repeat;
-  width: 81px;
-  height: 100%;
+  width: 353px;
+  height: 353px;
 }
 .left {
   width: 40px;
   height: 83px;
   margin-top: 136px;
   margin-left: 250px;
-  background-image: url(../img/white_left.png);
+  background-image: url(/img/icons/white_left.png);
   background-repeat: no-repeat;
   cursor: pointer;
   transition: 0.3s;
 }
 .left:hover {
-  background-image: url(../img/white_left_hover.png);
+  background-image: url(/img/icons/white_left_hover.png);
   background-repeat: no-repeat;
 }
 .right {
@@ -73,13 +86,13 @@
   height: 83px;
   margin-top: 136px;
   margin-left: 70px;
-  background-image: url(../img/white_right.png);
+  background-image: url(/img/icons/white_right.png);
   background-repeat: no-repeat;
   cursor: pointer;
   transition: 0.3s;
 }
 .right:hover {
-  background-image: url(../img/white_right_hover.png);
+  background-image: url(/img/icons/white_right_hover.png);
   background-repeat: no-repeat;
 }
 /* 컨텐츠-상단 텍스트 */
@@ -128,13 +141,13 @@
 .heart {
   width: 20px;
   height: 20px;
-  background-image: url(../img/heart.png);
+  background-image: url(/img/icons/heart.png);
   background-repeat: no-repeat;
   cursor: pointer;
   transition: 0.3s;
 }
 .heart:hover {
-  background-image: url(../img/heart_hover.png);
+  background-image: url(/img/icons/heart_hover.png);
   background-repeat: no-repeat;
 }
 .good {
@@ -142,13 +155,13 @@
   height: 20px;
   margin-bottom: 5px;
   margin-left: 5px;
-  background-image: url(../img/good.png);
+  background-image: url(/img/icons/good.png);
   background-repeat: no-repeat;
   cursor: pointer;
   transition: 0.3s;
 }
 .good:hover {
-  background-image: url(../img/good_hover.png);
+  background-image: url(/img/icons/good_hover.png);
   background-repeat: no-repeat;
 }
 /* 박스 1 */
@@ -198,8 +211,6 @@
   width: 412px;
   height: 400px;
   border-radius: 30px;
-  background-image: url(../img/locate.png);
-  background-repeat: no-repeat;
 }
 iframe {
   border-radius: 30px 30px 0 0;
@@ -291,7 +302,7 @@ iframe {
   height: 14px;
   display: inline-block;
   content: "";
-  background-image: url(../img/STAR.png);
+  background-image: url(/img/icons/STAR.png);
   background-repeat: no-repeat;
   margin-left: 15px;
 }
