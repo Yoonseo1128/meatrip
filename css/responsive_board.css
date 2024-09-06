@@ -1,0 +1,626 @@
+@media screen and (min-width: 1601px) and (max-width: 1919px) {
+  /* 헤더 */
+  .search_bar {
+    margin-left: 8vw;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1600px) {
+  /* 헤더 */
+  .header {
+    width: 80vw;
+  }
+  .header_con {
+    width: 90vw;
+  }
+  .search_bar {
+    margin-left: 10vw;
+  }
+  /* 배너 */
+  .banner {
+    height: 350px;
+    background-position: -100px -400px;
+    padding: 100px 150px;
+  }
+  .banner h2 {
+    font-size: 45px;
+  }
+  .banner p {
+    font-size: 21px;
+  }
+  /* 컨텐츠영역 */
+  .wrapper {
+    width: 80vw;
+  }
+  /* 검색 */
+  select {
+    height: 30px;
+    font-size: 14px;
+  }
+  form input {
+    width: 360px;
+    height: 30px;
+    font-size: 14px;
+  }
+  form button {
+    width: 75px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 13px;
+  }
+  /* 게시판 */
+  .total {
+    width: 80vw;
+  }
+  .total h3 {
+    font-size: 16px;
+  }
+  .soon {
+    font-size: 13px;
+  }
+  table {
+    width: 80vw;
+  }
+  thead {
+    height: 65px;
+  }
+  thead th {
+    line-height: 65px;
+    font-size: 15px;
+  }
+  tbody tr {
+    height: 65px;
+    font-size: 15px;
+    line-height: 65px;
+  }
+  tbody tr td:nth-child(3),
+  tbody tr td:nth-child(4) {
+    font-size: 13px;
+  }
+  /* 글쓰러가기 버튼 */
+  .board button {
+    width: 125px;
+    height: 35px;
+    margin-left: 71vw;
+    font-size: 13px;
+  }
+  /* 페이지 */
+  .page {
+    width: 250px;
+  }
+  .page > p > a {
+    font-size: 13px;
+  }
+  .small_next {
+    width: 12px;
+    height: 12px;
+    background-size: 50%;
+    background-position: 0 0;
+    margin-top: 5px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1439px) {
+  /* 헤더 */
+  .header {
+    width: 80vw;
+  }
+  .header_con {
+    width: 90vw;
+  }
+  .search_bar {
+    margin-left: 3vw;
+  }
+  #menu ul {
+    width: 350px;
+  }
+  #menu li a {
+    font-size: 13px;
+  }
+  .search_bar > .search {
+    width: 120px;
+  }
+  .search_bar input {
+    width: 80%;
+  }
+  .login {
+    font-size: 13px;
+    width: 100px;
+  }
+  /* 배너 */
+  .banner {
+    height: 300px;
+    background-position: -50px -300px;
+    background-size: 120%;
+    padding: 80px 100px;
+  }
+  .banner h2 {
+    font-size: 40px;
+  }
+  .banner p {
+    font-size: 18px;
+  }
+  /* 컨텐츠영역 */
+  .wrapper {
+    width: 80vw;
+  }
+  /* 검색 */
+  select {
+    height: 30px;
+    font-size: 13px;
+  }
+  form input {
+    width: 300px;
+    height: 30px;
+    font-size: 13px;
+  }
+  form button {
+    width: 75px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 13px;
+  }
+  /* 게시판 */
+  .total {
+    width: 80vw;
+  }
+  .total h3 {
+    font-size: 15px;
+  }
+  .soon {
+    font-size: 12px;
+  }
+  table {
+    width: 80vw;
+  }
+  thead {
+    height: 60px;
+  }
+  thead th {
+    line-height: 60px;
+    font-size: 13px;
+  }
+  tbody tr {
+    height: 60px;
+    font-size: 13px;
+    line-height: 60px;
+  }
+  tbody tr td:nth-child(3),
+  tbody tr td:nth-child(4) {
+    font-size: 12px;
+  }
+  /* 글쓰러가기 버튼 */
+  .board button {
+    width: 110px;
+    height: 35px;
+    margin-left: 68vw;
+    font-size: 12px;
+  }
+  /* 페이지 */
+  .page {
+    width: 250px;
+  }
+  .page > p > a {
+    font-size: 13px;
+  }
+  .small_next {
+    width: 12px;
+    height: 12px;
+    background-size: 50%;
+    background-position: 0 0;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* 헤더 */
+  main {
+    padding-top: 60px;
+  }
+  header {
+    height: 60px;
+  }
+  h1 a {
+    margin-top: 18px;
+  }
+  #menu ul {
+    display: none;
+  }
+  .search_bar {
+    margin-left: 10vw;
+  }
+  .search_bar > .search {
+    margin-top: 18px;
+  }
+  .search_icon {
+    margin-top: 12px;
+  }
+  .login {
+    width: 12vw;
+    margin-left: 0;
+    line-height: 60px;
+    font-size: 13px;
+  }
+  #menu_m {
+    display: block;
+  }
+  #menu_m ul {
+    line-height: 80px;
+  }
+  .submenu {
+    left: -150px;
+  }
+  /* 배너 */
+  .banner {
+    height: 280px;
+    background-position: -50px -240px;
+    background-size: 120%;
+    padding: 70px 80px;
+  }
+  .banner h2 {
+    font-size: 36px;
+  }
+  .banner p {
+    font-size: 16px;
+  }
+  /* 컨텐츠영역 */
+  .wrapper {
+    width: 80vw;
+  }
+  /* 검색 */
+  select {
+    height: 30px;
+    font-size: 13px;
+  }
+  form input {
+    width: 250px;
+    height: 30px;
+    font-size: 13px;
+  }
+  form button {
+    width: 75px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 13px;
+  }
+  /* 게시판 */
+  .total {
+    width: 80vw;
+  }
+  .total h3 {
+    font-size: 15px;
+  }
+  .soon {
+    font-size: 12px;
+  }
+  table {
+    width: 80vw;
+  }
+  thead {
+    height: 60px;
+    width: 80vw;
+  }
+  thead th {
+    line-height: 60px;
+    font-size: 13px;
+  }
+  thead th:nth-child(3) {
+    display: none;
+  }
+
+  tbody tr {
+    height: 60px;
+    font-size: 13px;
+    line-height: 60px;
+  }
+  tbody tr td:nth-child(3),
+  tbody tr td:nth-child(4) {
+    font-size: 12px;
+  }
+  tbody td:nth-child(3) {
+    display: none;
+  }
+  /* 글쓰러가기 버튼 */
+  .board button {
+    width: 110px;
+    height: 35px;
+    margin-left: 65vw;
+    font-size: 12px;
+  }
+  /* 페이지 */
+  .page {
+    width: 230px;
+    margin-bottom: 100px;
+  }
+  .page > p > a {
+    font-size: 12px;
+  }
+  .small_next {
+    width: 10px;
+    height: 10px;
+    background-size: 45%;
+    background-position: 0 0;
+    margin-top: 6px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* 헤더 */
+  main {
+    padding-top: 60px;
+  }
+  header {
+    height: 60px;
+  }
+  h1 {
+    margin: 0 auto;
+  }
+  h1 a {
+    margin-top: 18px;
+  }
+  #menu ul {
+    display: none;
+  }
+  .search_bar {
+    display: none;
+  }
+  .search_bar > .search {
+    margin-top: 18px;
+  }
+  .search_icon {
+    margin-top: 12px;
+  }
+  .login {
+    display: none;
+  }
+  .login_icon {
+    display: block;
+    left: 81vw;
+    top: 20px;
+  }
+  #menu_m {
+    display: block;
+  }
+  #menu_m ul {
+    line-height: 80px;
+  }
+  .submenu {
+    left: -150px;
+  }
+  /* 배너 */
+  .banner {
+    height: 200px;
+    background-position: -140px -250px;
+    background-size: 170%;
+    padding: 50px 50px;
+  }
+  .banner h2 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  /* 컨텐츠영역 */
+  .wrapper {
+    width: 80vw;
+    box-sizing: border-box;
+    padding-bottom: 100px;
+  }
+  /* 검색 */
+  form {
+    margin-top: 100px;
+  }
+  select {
+    height: 30px;
+    font-size: 12px;
+  }
+  form input {
+    width: 180px;
+    height: 30px;
+    font-size: 12px;
+    padding-left: 15px;
+  }
+  form button {
+    width: 70px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+  /* 게시판 */
+  .total {
+    width: 80vw;
+  }
+  .total h3 {
+    font-size: 13px;
+  }
+  .soon {
+    font-size: 12px;
+  }
+  table {
+    width: 80vw;
+    margin-top: 30px;
+  }
+  thead {
+    height: 50px;
+    width: 80vw;
+  }
+  thead th {
+    line-height: 50px;
+    font-size: 12px;
+  }
+  thead th:nth-child(3) {
+    display: none;
+  }
+
+  tbody tr {
+    height: 70px;
+    font-size: 12px;
+    line-height: 70px;
+  }
+  tbody tr td:nth-child(3),
+  tbody tr td:nth-child(4) {
+    font-size: 12px;
+  }
+  tbody td:nth-child(3) {
+    display: none;
+  }
+  tbody td span {
+    display: none;
+  }
+  /* 글쓰러가기 버튼 */
+  .board button {
+    width: 110px;
+    height: 35px;
+    margin-left: 55vw;
+    font-size: 12px;
+  }
+  /* 페이지 */
+  .page {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* 헤더 */
+  main {
+    padding-top: 60px;
+  }
+  header {
+    height: 60px;
+  }
+  h1 {
+    margin: 0 auto;
+  }
+  h1 a {
+    margin-top: 18px;
+  }
+  #menu ul {
+    display: none;
+  }
+  .search_bar {
+    display: none;
+  }
+  .search_bar > .search {
+    margin-top: 18px;
+  }
+  .search_icon {
+    margin-top: 12px;
+  }
+  .login {
+    display: none;
+  }
+  .login_icon {
+    display: block;
+    left: 77vw;
+    top: 20px;
+  }
+  #menu_m {
+    display: block;
+  }
+  #menu_m ul {
+    line-height: 80px;
+  }
+  .submenu {
+    left: -150px;
+  }
+  /* 배너 */
+  .banner {
+    height: 200px;
+    background-position: -170px -240px;
+    background-size: 210%;
+    padding: 50px 50px;
+  }
+  .banner h2 {
+    font-size: 28px;
+  }
+  .banner p {
+    font-size: 12px;
+    margin-top: 17px;
+    line-height: 22px;
+  }
+  /* 컨텐츠영역 */
+  .wrapper {
+    width: 80vw;
+    box-sizing: border-box;
+    padding-bottom: 100px;
+  }
+  /* 검색 */
+  form {
+    margin-top: 80px;
+  }
+  select {
+    height: 30px;
+    font-size: 11px;
+    width: 50px;
+  }
+  form input {
+    width: 150px;
+    height: 30px;
+    font-size: 11px;
+    padding-left: 10px;
+  }
+  form button {
+    width: 60px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 11px;
+    margin-left: 10px;
+  }
+  /* 게시판 */
+  .total {
+    width: 80vw;
+  }
+  .total h3 {
+    font-size: 12px;
+  }
+  .soon {
+    font-size: 11px;
+  }
+  table {
+    width: 80vw;
+    margin-top: 0px;
+  }
+  thead {
+    height: 50px;
+    width: 80vw;
+  }
+  thead th {
+    line-height: 50px;
+    font-size: 12px;
+    display: none;
+  }
+  thead th:nth-child(3),
+  thead th:nth-child(4) {
+    display: none;
+  }
+
+  tbody tr {
+    height: 65px;
+    font-size: 11px;
+    line-height: 65px;
+  }
+
+  tbody tr td:nth-child(3),
+  tbody tr td:nth-child(4) {
+    font-size: 12px;
+  }
+  tbody td:nth-child(3),
+  tbody td:nth-child(4) {
+    display: none;
+  }
+  tbody td span {
+    display: none;
+  }
+  /* 글쓰러가기 버튼 */
+  .board button {
+    width: 100px;
+    height: 35px;
+    margin-top: 40px;
+    margin-left: 29vw;
+    font-size: 11px;
+  }
+  /* 페이지 */
+  .page {
+    display: none;
+  }
+}

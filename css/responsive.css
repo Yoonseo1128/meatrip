@@ -377,7 +377,7 @@
     max-width: 100%;
   }
   .con3_sec_txt {
-    margin-top: 10vw;
+    margin-top: 6vw;
     width: 40vw;
   }
   .con3_sec_txt_right > .number {
@@ -470,7 +470,7 @@
   }
   .login {
     width: 12vw;
-    margin-left: 20px;
+    margin-left: 0;
     line-height: 60px;
     font-size: 13px;
   }
@@ -677,7 +677,7 @@
     max-width: 100%;
   }
   .con3_sec_txt {
-    margin-top: 18vw;
+    margin-top: 10vw;
     width: 45vw;
   }
   .con3_sec_txt_right > .number {
@@ -788,6 +788,11 @@
   }
   .login {
     display: none;
+  }
+  .login_icon {
+    display: block;
+    left: 81vw;
+    top: 20px;
   }
   #menu_m {
     display: block;
@@ -923,7 +928,7 @@
     display: block;
   }
   .con2_txt h3 {
-    font-size: 32px;
+    font-size: 28px;
   }
   .con2_txt ul {
     font-size: 13px;
@@ -939,9 +944,10 @@
   .con2_sec_3,
   .con2_sec_4 {
     width: 90vw;
-    height: 250px;
+    height: 200px;
     display: flex;
     gap: 20px;
+    position: relative;
   }
   .con2_sec_1:hover,
   .con2_sec_2:hover,
@@ -966,17 +972,19 @@
 
   .con2_sec_txt {
     width: 50vw;
-    margin-top: 60px;
+    margin-top: 20px;
     display: block;
   }
   .con2_sec_txt_left > h2 {
-    font-size: 26px;
+    font-size: 24px;
   }
   .con2_sec_txt_left > h2,
   .con2_sec_txt_left > h3 {
-    margin-top: 15px;
+    margin-top: 14px;
   }
-
+  .con2_sec_txt_left > h3 {
+    font-size: 14px;
+  }
   .more_btn {
     display: none;
   }
@@ -989,8 +997,9 @@
     height: fit-content;
   }
   .con2_sec_txt_right > .number {
-    margin-top: 0;
-    margin-left: 25vw;
+    position: absolute;
+    top: 48px;
+    left: 61vw;
     width: 100px;
   }
 
@@ -1043,10 +1052,11 @@
   .con3_sec_2,
   .con3_sec_3 {
     width: 90vw;
-    height: 250px;
+    height: 200px;
     display: flex;
     gap: 20px;
     margin-bottom: 20px;
+    position: relative;
   }
   .con3_sec_1:hover,
   .con3_sec_2:hover,
@@ -1062,7 +1072,7 @@
   }
   .con3_sec_txt {
     width: 50vw;
-    margin-top: 40px;
+    margin-top: 14px;
     display: block;
   }
   .con_img {
@@ -1074,9 +1084,17 @@
     width: fit-content;
     height: fit-content;
   }
+  .con3_sec_txt_left > h2 {
+    font-size: 24px;
+  }
+  .con3_sec_txt_left > h3 {
+    margin-top: 14px;
+    font-size: 14px;
+  }
   .con3_sec_txt_right > .number {
-    margin-top: 0;
-    margin-left: 25vw;
+    position: absolute;
+    top: 48px;
+    left: 61vw;
     width: 100px;
   }
   .con3 a {
@@ -1098,9 +1116,10 @@
   }
   .con4_txt {
     display: block;
+    margin-left: 15px;
   }
   .con4_txt h3 {
-    font-size: 32px;
+    font-size: 28px;
   }
   .con4_sec {
     width: 90vw;
@@ -1146,8 +1165,12 @@
     border: none;
     margin-right: 10px;
   }
+  .con5_sec1:hover {
+    background-color: #f1f1f1;
+    border: none;
+  }
   .con5_txt h3 {
-    font-size: 32px;
+    font-size: 28px;
   }
   .con5_txt a {
     display: none;
@@ -1155,6 +1178,19 @@
   .con5_sec {
     width: fit-content;
     flex-wrap: nowrap;
+  }
+  .arrow2 {
+    width: 90px;
+  }
+  #arrow_left2 {
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+  }
+  #arrow_right2 {
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
   }
 }
 
@@ -1187,6 +1223,11 @@
   }
   .login {
     display: none;
+  }
+  .login_icon {
+    display: block;
+    left: 77vw;
+    top: 20px;
   }
   #menu_m {
     display: block;
@@ -1320,7 +1361,7 @@
     display: block;
   }
   .con2_txt h3 {
-    font-size: 28px;
+    font-size: 24px;
   }
   .con2_txt ul {
     font-size: 13px;
@@ -1363,7 +1404,7 @@
 
   .con2_sec_txt {
     width: 40vw;
-    margin-top: 30px;
+    margin-top: 20px;
     display: block;
   }
   .con2_sec_txt_left > h2 {
@@ -1479,7 +1520,7 @@
 
   .con3_sec_txt {
     width: 40vw;
-    margin-top: 30px;
+    margin-top: 20px;
     display: block;
   }
   .con3_sec_txt_left > h2 {
@@ -1531,9 +1572,10 @@
   }
   .con4_txt {
     display: block;
+    margin-left: 15px;
   }
   .con4_txt h3 {
-    font-size: 28px;
+    font-size: 24px;
   }
   .con4_sec {
     width: 90vw;
@@ -1576,7 +1618,7 @@
     overflow: hidden;
   }
   .con5_txt h3 {
-    font-size: 28px;
+    font-size: 24px;
   }
   .con5_txt a {
     display: none;
@@ -1586,5 +1628,29 @@
     flex-wrap: nowrap;
     margin-top: 40px;
     display: flex;
+  }
+  .con5_sec1 {
+    border: none;
+    margin-right: 10px;
+  }
+  .con5_sec1:hover {
+    background-color: #f1f1f1;
+    border: none;
+  }
+  .arrow2 {
+    width: 90px;
+    left: 64vw;
+    top: 20px;
+  }
+
+  #arrow_left2 {
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+  }
+  #arrow_right2 {
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
   }
 }

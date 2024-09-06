@@ -5,7 +5,7 @@ $(document).ready(function () {
   $(".con2_sec").slick({
     dots: true,
     infinite: false,
-    speed: 300,
+    speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,
     responsive: [
@@ -74,8 +74,8 @@ $(document).ready(function () {
     centerMode: false,
     variableWidth: true,
     dots: false,
-    autoplay: true,
-    autoplaySpeed: 2000,
+    prevArrow: $("#arrow_left2"),
+    nextArrow: $("#arrow_right2"),
     responsive: [
       {
         breakpoint: 769,

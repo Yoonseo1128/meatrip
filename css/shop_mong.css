@@ -1,8 +1,12 @@
+main {
+  overflow: hidden;
+}
+
 /* 사진 슬라이드 */
 .wrapper {
   width: 100%;
   height: fit-content;
-  padding-top: 80px;
+  padding-top: 60px;
   padding-bottom: 100px;
   overflow: hidden;
 }
@@ -18,25 +22,7 @@
   justify-content: space-between;
   position: relative;
 }
-.black_op {
-  width: 23.2vw;
-  height: 353px;
-  background-color: rgba(0, 0, 0, 0.6);
-  position: absolute;
-  top: 80px;
-  left: 0;
-  z-index: 99;
-}
 
-.black_op_2 {
-  width: 21vw;
-  height: 353px;
-  background-color: rgba(0, 0, 0, 0.6);
-  position: absolute;
-  top: 80px;
-  right: 0;
-  z-index: 99;
-}
 .sam1 {
   background-image: url(/img/sub-shop/mong5.png);
   background-repeat: no-repeat;
@@ -63,9 +49,9 @@
   height: 353px;
 }
 .sam5 {
-  background-image: url(/img/sub-shop/mong4.png);
+  background-image: url(/img/sub-shop/mong_4.png);
   background-repeat: no-repeat;
-  background-position: 0 -65px;
+
   width: 353px;
   height: 353px;
 }
@@ -75,6 +61,7 @@
   width: 353px;
   height: 353px;
 }
+
 .sam7 {
   background-image: url(/img/sub-shop/mong6.png);
   background-repeat: no-repeat;
@@ -231,6 +218,7 @@
   width: 412px;
   height: 400px;
   border-radius: 30px;
+  overflow: hidden;
 }
 iframe {
   border-radius: 30px 30px 0 0;
@@ -240,14 +228,14 @@ iframe {
   height: 50px;
   background-color: #666;
   border-radius: 0 0 30px 30px;
-  box-sizing: border-box;
-  padding: 0 180px;
+
   cursor: pointer;
   transition: 0.3s;
 }
-.found > a {
+.found > p {
   color: #fff;
   line-height: 50px;
+  text-align: center;
 }
 .found:hover {
   background-color: #aaa;

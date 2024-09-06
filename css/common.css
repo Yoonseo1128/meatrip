@@ -15,16 +15,17 @@ a {
 body {
   font-family: "Noto Sans KR", sans-serif;
 }
+
 /* 헤더 */
 header {
-  width: 100%;
+  width: 100vw;
   height: 80px;
   background-color: #fff;
   position: fixed;
   z-index: 999;
 }
 .header_con {
-  width: 1632px;
+  width: 87vw;
   height: 100%;
   margin: 0 auto;
   display: flex;
@@ -34,6 +35,7 @@ h1 a {
   display: block;
   width: 129px;
   height: 29px;
+
   background-image: url(/img/icons/css_sprites.png);
   background-repeat: no-repeat;
   background-position: -135px -10px;
@@ -60,8 +62,7 @@ h1 a {
   height: auto;
   display: flex;
   justify-content: space-between;
-
-  margin-left: 460px;
+  margin-left: 24vw;
 }
 .search_bar > .search {
   border: 1px solid #e6e6e6;
@@ -108,25 +109,14 @@ h1 a {
 .login a:hover {
   color: #ea6a63;
 }
+.login_icon {
+  width: 30px;
+  height: 30px;
+  background-image: url(/img/icons/login_icon.png);
+  background-repeat: no-repeat;
+  position: absolute;
 
-/* 풋터 */
-footer {
-  width: 100%;
-  height: 100px;
-  background-color: #f7f7f7;
-  box-sizing: border-box;
-  padding-top: 30px;
-}
-footer > div {
-  width: 90px;
-  height: 20px;
-  margin: 0 auto;
-}
-footer > p {
-  font-size: 12px;
-  color: #b7b7b7;
-  text-align: center;
-  margin-top: 10px;
+  display: none;
 }
 /* 모바일 메뉴 */
 #menu_m {
@@ -149,12 +139,11 @@ footer > p {
   overflow: hidden;
   box-sizing: border-box;
   padding: 0 50px;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 20px;
   position: absolute;
   left: -120px;
   transition: 0.3s;
-
   backdrop-filter: blur(3px);
 }
 .submenu > li {
@@ -164,10 +153,30 @@ footer > p {
 }
 .submenu > li a {
   transition: 0.3s;
+  color: #fff;
 }
 #menu_m li:hover .submenu {
   height: 285px;
 }
 .submenu > li:hover a {
   color: #ea6a63;
+}
+/* 풋터 */
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #f7f7f7;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+footer > div {
+  width: 90px;
+  height: 20px;
+  margin: 0 auto;
+}
+footer > p {
+  font-size: 12px;
+  color: #b7b7b7;
+  text-align: center;
+  margin-top: 10px;
 }

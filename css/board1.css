@@ -27,7 +27,7 @@ main {
 }
 /* 검색 */
 .wrapper {
-  width: 1400px;
+  width: 73vw;
   height: fit-content;
   margin: 0 auto;
 }
@@ -89,7 +89,7 @@ form button:hover {
 }
 /* 총00건 */
 .total {
-  width: 1400px;
+  width: 73vw;
   height: fit-content;
   margin: 0 auto;
   margin-top: 100px;
@@ -119,7 +119,7 @@ form button:hover {
 }
 /* 게시판 */
 table {
-  width: 1400px;
+  width: 73vw;
   height: fit-content;
   margin: 0 auto;
   border-collapse: collapse;
@@ -185,7 +185,7 @@ tbody tr td:nth-child(4) {
   margin-bottom: 150px;
 }
 .page > p > a {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: #aaa;
   transition: 0.3s;
@@ -197,13 +197,15 @@ tbody tr td:nth-child(4) {
   color: #000;
 }
 .small_next {
-  width: 20px;
-  height: 20px;
   cursor: pointer;
   background-image: url(/img/icons/page_next.png);
   background-repeat: no-repeat;
-  background-position: 2px 4px;
   transition: 0.3s;
+  width: 12px;
+  height: 12px;
+  background-size: 50%;
+  background-position: 0 0;
+  margin-top: 5px;
 }
 .small_next:hover {
   background-image: url(/img/icons/page_next_hover.png);

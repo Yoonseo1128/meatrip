@@ -17,6 +17,7 @@
     <!-- css -->
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/ranking.css" />
+    <link rel="stylesheet" href="./css/resposive_ranking.css" />
   </head>
   <body>
     <!-- header -->
@@ -54,6 +55,7 @@
           <a href="./login.html">로그인</a>
           <a href="#">회원가입</a>
         </div>
+        <a href="./login.html"><div class="login_icon"></div></a>
         <!-- 메뉴아이콘(모바일) -->
         <nav id="menu_m">
           <ul>
@@ -86,8 +88,14 @@
           </nav>
         </div>
         <div class="con_sec">
-          <div class="con_sec_1">
-            <div><img src="/img/main/image 7.png " alt="몽탄" /></div>
+          <div
+            class="con_sec_1"
+            style="cursor: pointer"
+            onclick="location.href='./shop_mong.html'"
+          >
+            <div class="con_img">
+              <img src="/img/main/image 7.png " alt="몽탄" />
+            </div>
             <div class="con_sec_txt">
               <div class="con_sec_txt_left">
                 <h2>몽탄</h2>
@@ -106,8 +114,15 @@
               </div>
             </div>
           </div>
-          <div class="con_sec_2">
-            <div><img src="/img/main/image 8.png" alt="고공" /></div>
+
+          <div
+            class="con_sec_2"
+            style="cursor: pointer"
+            onclick="location.href='./shop_gogong.html'"
+          >
+            <div class="con_img">
+              <img src="/img/main/image 8.png" alt="고공" />
+            </div>
             <div class="con_sec_txt">
               <div class="con_sec_txt_left">
                 <h2>고공</h2>
@@ -126,8 +141,36 @@
               </div>
             </div>
           </div>
-          <div class="con_sec_3">
-            <div><img src="/img/main/image 9.png" alt="방이돈가" /></div>
+          <div
+            class="con_sec_3"
+            style="cursor: pointer"
+            onclick="location.href='./shop_sam.html'"
+          >
+            <div class="con_img">
+              <img src="/img/sub-ranking/samdol.png" alt="삼돌박이" />
+            </div>
+            <div class="con_sec_txt">
+              <div class="con_sec_txt_left">
+                <h2>삼돌박이 수라육간</h2>
+                <h3>허영만이 다녀간 우대갈비 맛집</h3>
+                <h4>경기 안양시 동안구 평촌대로223번길</h4>
+                <h5>리뷰 389건</h5>
+              </div>
+              <div class="con_sec_txt_right">
+                <a href="./shop_sam.html"><div class="more_btn"></div></a>
+                <div class="number">
+                  <div class="heart"></div>
+                  <p>186</p>
+                  <div class="good"></div>
+                  <p>230</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="con_sec_4">
+            <div class="con_img">
+              <img src="/img/main/image 9.png" alt="방이돈가" />
+            </div>
             <div class="con_sec_txt">
               <div class="con_sec_txt_left">
                 <h2>방이돈가</h2>
@@ -146,8 +189,10 @@
               </div>
             </div>
           </div>
-          <div class="con_sec_4">
-            <div><img src="/img/main/image 10.png" alt="숙성도" /></div>
+          <div class="con_sec_5">
+            <div class="con_img">
+              <img src="/img/main/image 10.png" alt="숙성도" />
+            </div>
             <div class="con_sec_txt">
               <div class="con_sec_txt_left">
                 <h2>숙성도 노형본관</h2>
@@ -166,8 +211,10 @@
               </div>
             </div>
           </div>
-          <div class="con_sec_5">
-            <div><img src="/img/sub-ranking/gold.png" alt="금돼지식당" /></div>
+          <div class="con_sec_6">
+            <div class="con_img">
+              <img src="/img/sub-ranking/gold.png" alt="금돼지식당" />
+            </div>
             <div class="con_sec_txt">
               <div class="con_sec_txt_left">
                 <h2>금돼지식당</h2>
@@ -186,8 +233,10 @@
               </div>
             </div>
           </div>
-          <div class="con_sec_6">
-            <div><img src="/img/sub-ranking/ggoup.png" alt="꿉당" /></div>
+          <div class="con_sec_7">
+            <div class="con_img">
+              <img src="/img/sub-ranking/ggoup.png" alt="꿉당" />
+            </div>
             <div class="con_sec_txt">
               <div class="con_sec_txt_left">
                 <h2>꿉당</h2>
@@ -206,8 +255,8 @@
               </div>
             </div>
           </div>
-          <div class="con_sec_7">
-            <div>
+          <div class="con_sec_8">
+            <div class="con_img">
               <img src="/img/sub-ranking/meat_before.png" alt="육전식당" />
             </div>
             <div class="con_sec_txt">
@@ -228,28 +277,11 @@
               </div>
             </div>
           </div>
-          <div class="con_sec_8">
-            <div><img src="/img/sub-ranking/samdol.png" alt="삼돌박이" /></div>
-            <div class="con_sec_txt">
-              <div class="con_sec_txt_left">
-                <h2>삼돌박이 수라육간</h2>
-                <h3>허영만이 다녀간 우대갈비 맛집</h3>
-                <h4>경기 안양시 동안구 평촌대로223번길 31</h4>
-                <h5>리뷰 389건</h5>
-              </div>
-              <div class="con_sec_txt_right">
-                <a href="./shop_sam.html"><div class="more_btn"></div></a>
-                <div class="number">
-                  <div class="heart"></div>
-                  <p>186</p>
-                  <div class="good"></div>
-                  <p>230</p>
-                </div>
-              </div>
-            </div>
-          </div>
+
           <div class="con_sec_9">
-            <div><img src="/img/sub-ranking/jin.png" alt="진대감" /></div>
+            <div class="con_img">
+              <img src="/img/sub-ranking/jin.png" alt="진대감" />
+            </div>
             <div class="con_sec_txt">
               <div class="con_sec_txt_left">
                 <h2>진대감 논현본점</h2>
@@ -269,7 +301,9 @@
             </div>
           </div>
           <div class="con_sec_10">
-            <div><img src="/img/sub-ranking/samsix.png" alt="삼육가" /></div>
+            <div class="con_img">
+              <img src="/img/sub-ranking/samsix.png" alt="삼육가" />
+            </div>
             <div class="con_sec_txt">
               <div class="con_sec_txt_left">
                 <h2>삼육가 본점</h2>
@@ -289,7 +323,7 @@
             </div>
           </div>
           <div class="con_sec_11">
-            <div>
+            <div class="con_img">
               <img src="/img/sub-ranking/blackpig.png" alt="까망돼지" />
             </div>
             <div class="con_sec_txt">
@@ -311,7 +345,9 @@
             </div>
           </div>
           <div class="con_sec_12">
-            <div><img src="/img/sub-ranking/gunner.png" alt="대포집" /></div>
+            <div class="con_img">
+              <img src="/img/sub-ranking/gunner.png" alt="대포집" />
+            </div>
             <div class="con_sec_txt">
               <div class="con_sec_txt_left">
                 <h2>대포집 논현</h2>
@@ -331,11 +367,13 @@
             </div>
           </div>
           <div class="con_sec_13">
-            <div><img src="/img/sub-ranking/wall.png" alt="벽제" /></div>
+            <div class="con_img">
+              <img src="/img/sub-ranking/wall.png" alt="벽제" />
+            </div>
             <div class="con_sec_txt">
               <div class="con_sec_txt_left">
                 <h2>벽제갈비 본점</h2>
-                <h3>미슐랭 가이드 선정 명품 소갈비</h3>
+                <h3>미슐랭 가이드 선정 명품소갈비</h3>
                 <h4>서울 송파구 양재대로71길 1-4</h4>
                 <h5>리뷰 556건</h5>
               </div>
@@ -351,7 +389,7 @@
             </div>
           </div>
           <div class="con_sec_14">
-            <div>
+            <div class="con_img">
               <img src="/img/sub-ranking/ma.png" alt="마부자생삼겹살" />
             </div>
             <div class="con_sec_txt">
@@ -373,12 +411,14 @@
             </div>
           </div>
           <div class="con_sec_15">
-            <div><img src="/img/sub-ranking/gozip.png" alt="고집" /></div>
+            <div class="con_img">
+              <img src="/img/sub-ranking/gozip.png" alt="고집" />
+            </div>
             <div class="con_sec_txt">
               <div class="con_sec_txt_left">
                 <h2>고집132 성수본점</h2>
                 <h3>인내있는 132시간의 숙성과정</h3>
-                <h4>서울 성동구 왕십리로8길 5 대영빌딩 1층</h4>
+                <h4>서울 성동구 왕십리로8길 5 대영빌딩</h4>
                 <h5>리뷰 499건</h5>
               </div>
               <div class="con_sec_txt_right">
@@ -393,12 +433,14 @@
             </div>
           </div>
           <div class="con_sec_16">
-            <div><img src="/img/sub-ranking/jaebonso.png" alt="재본소" /></div>
+            <div class="con_img">
+              <img src="/img/sub-ranking/jaebonso.png" alt="재본소" />
+            </div>
             <div class="con_sec_txt">
               <div class="con_sec_txt_left">
                 <h2>재본소</h2>
                 <h3>안양 일번가 찐 돼지고기 맛집</h3>
-                <h4>경기 안양시 만안구 장내로149번길 9 1층</h4>
+                <h4>경기 안양시 만안구 장내로149번길</h4>
                 <h5>리뷰 99건</h5>
               </div>
               <div class="con_sec_txt_right">
@@ -413,7 +455,9 @@
             </div>
           </div>
           <div class="con_sec_17">
-            <div><img src="/img/sub-ranking/wodaepo.png" alt="우대포" /></div>
+            <div class="con_img">
+              <img src="/img/sub-ranking/wodaepo.png" alt="우대포" />
+            </div>
             <div class="con_sec_txt">
               <div class="con_sec_txt_left">
                 <h2>우대포 위례본점</h2>
@@ -433,12 +477,14 @@
             </div>
           </div>
           <div class="con_sec_18">
-            <div><img src="/img/sub-ranking/flowerpig.png" alt="꽃돼지" /></div>
+            <div class="con_img">
+              <img src="/img/sub-ranking/flowerpig.png" alt="꽃돼지" />
+            </div>
             <div class="con_sec_txt">
               <div class="con_sec_txt_left">
                 <h2>꽃돼지식당 동래점</h2>
                 <h3>삼겹살과 김치찌개가 맛있는 집</h3>
-                <h4>부산 동래구 명륜로 130-3 1층 꽃돼지식당 동래점</h4>
+                <h4>부산 동래구 명륜로 130-3 1층</h4>
                 <h5>리뷰 156건</h5>
               </div>
               <div class="con_sec_txt_right">
@@ -453,7 +499,7 @@
             </div>
           </div>
           <div class="con_sec_19">
-            <div>
+            <div class="con_img">
               <img src="/img/sub-ranking/makdongii.png" alt="막동이회관" />
             </div>
             <div class="con_sec_txt">
@@ -475,12 +521,14 @@
             </div>
           </div>
           <div class="con_sec_20">
-            <div><img src="/img/sub-ranking/jun.png" alt="준식당" /></div>
+            <div class="con_img">
+              <img src="/img/sub-ranking/jun.png" alt="준식당" />
+            </div>
             <div class="con_sec_txt">
               <div class="con_sec_txt_left">
                 <h2>준식당</h2>
                 <h3>범계역 숙성삼겹살 맛집</h3>
-                <h4>경기 안양시 동안구 평촌대로227번길 48</h4>
+                <h4>경기 안양시 동안구 평촌대로227번길</h4>
                 <h5>리뷰 189건</h5>
               </div>
               <div class="con_sec_txt_right">

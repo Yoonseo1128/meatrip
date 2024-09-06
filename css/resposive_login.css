@@ -1,0 +1,152 @@
+@media screen and (min-width: 1440px) and (max-width: 1600px) {
+  .login {
+    width: 450px;
+    height: 380px;
+  }
+  .id_pw {
+    width: 370px;
+    height: 55px;
+  }
+  .id_pw input {
+    font-size: 14px;
+  }
+  .check {
+    margin-left: 11px;
+  }
+  .login_btn {
+    width: 370px;
+    font-size: 17px;
+  }
+  .sns > p {
+    display: none;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1439px) {
+  .login {
+    width: 450px;
+    height: 380px;
+  }
+  .id_pw {
+    width: 370px;
+    height: 55px;
+  }
+  .id_pw input {
+    font-size: 14px;
+  }
+  .check {
+    margin-left: 11px;
+  }
+  .login_btn {
+    width: 370px;
+    font-size: 17px;
+  }
+  .sns > p {
+    display: none;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .login {
+    width: 450px;
+    height: 380px;
+  }
+  .id_pw {
+    width: 370px;
+    height: 55px;
+  }
+  .id_pw input {
+    font-size: 14px;
+  }
+  .check {
+    margin-left: 11px;
+  }
+  .login_btn {
+    width: 370px;
+    font-size: 17px;
+  }
+  .sns > p {
+    display: none;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .logo {
+    margin-top: 240px;
+  }
+  .login {
+    width: 450px;
+    height: 380px;
+    background-color: transparent;
+    padding-top: 10px;
+  }
+  .id_pw {
+    width: 370px;
+    height: 55px;
+    background-color: transparent;
+  }
+  .id_pw:first-child {
+    border-radius: 0;
+    border: 1px solid #ddd;
+  }
+  .id_pw:nth-child(2) {
+    border-radius: 0;
+    border: 1px solid #dddddd;
+  }
+  .id_pw input {
+    font-size: 14px;
+  }
+  .check {
+    margin-left: 11px;
+  }
+  .login_btn {
+    width: 370px;
+    font-size: 17px;
+  }
+  .sns > p {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .logo {
+    margin-top: 240px;
+  }
+  .login {
+    width: 80vw;
+    height: 380px;
+    background-color: transparent;
+    padding: 0;
+    padding-top: 10px;
+  }
+  .id_pw {
+    width: 80vw;
+    height: 55px;
+    background-color: transparent;
+  }
+  .id_pw:first-child {
+    border-radius: 0;
+    border: 1px solid #ddd;
+  }
+  .id_pw:nth-child(2) {
+    border-radius: 0;
+    border: 1px solid #dddddd;
+  }
+  .id_pw input {
+    font-size: 14px;
+  }
+  .check {
+    margin-left: 11px;
+    width: fit-content;
+  }
+  .login_btn {
+    width: 80vw;
+    font-size: 16px;
+  }
+  .sns > div {
+    width: 95px;
+    padding: 6px 10px;
+  }
+  .sns > p {
+    display: none;
+  }
+  .found {
+    margin-top: 0;
+  }
+}
