@@ -1284,7 +1284,7 @@
   .con1_wrapper {
     padding: 0;
     padding-top: 100px;
-    padding-left: 40px;
+    padding-left: 20px;
   }
   .con1_1 {
     width: 100vw;
@@ -1299,8 +1299,8 @@
     left: 0;
   }
   .con1_txt > h2 {
-    font-size: 28px;
-    line-height: 38px;
+    font-size: 26px;
+    line-height: 34px;
   }
   .con1_txt h3 {
     font-size: 16px;
@@ -1454,7 +1454,7 @@
     line-height: 32px;
     color: #fff;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 15px;
   }
   .line span {
     font-size: 22px;

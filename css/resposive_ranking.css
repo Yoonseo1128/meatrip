@@ -576,9 +576,9 @@
   .con_sec_19,
   .con_sec_20 {
     width: 90vw;
-    height: 200px;
+    height: 180px;
     display: flex;
-    gap: 20px;
+    gap: 15px;
     position: relative;
   }
   .con_sec_1:hover,
@@ -614,7 +614,7 @@
 
   .con_sec_txt {
     width: 50vw;
-    margin-top: 20px;
+    margin-top: 10px;
     display: block;
   }
   .con_sec_txt_left > h2 {
@@ -644,8 +644,8 @@
   .con_sec_txt_right > .number {
     width: 100px;
     position: absolute;
-    top: 55px;
-    left: 56vw;
+    top: 40px;
+    left: 42vw;
   }
   .page {
     width: 180px;

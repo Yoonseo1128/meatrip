@@ -36,9 +36,9 @@ h1 a {
   width: 129px;
   height: 29px;
 
-  background-image: url(/img/icons/css_sprites.png);
+  background-image: url(/img/icons/Logo.png);
   background-repeat: no-repeat;
-  background-position: -135px -10px;
+  background-size: 100%;
   margin-top: 25px;
 }
 /* 메뉴 */

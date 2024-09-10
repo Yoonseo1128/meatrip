@@ -16,12 +16,17 @@ body {
   font-family: "Noto Sans KR", sans-serif;
 }
 /* 로고 */
-.logo {
-  width: fit-content;
-  height: fit-content;
+h1 a {
+  display: block;
+  width: 129px;
+  height: 29px;
   margin: 0 auto;
   margin-top: 150px;
+  background-image: url(../img/icons/Logo.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
+
 /* 로그인 */
 .login {
   width: 500px;
