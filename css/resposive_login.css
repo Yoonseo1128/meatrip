@@ -81,6 +81,7 @@
     width: 370px;
     height: 55px;
     background-color: transparent;
+    padding: 0 20px;
   }
   .id_pw:first-child {
     border-radius: 0;
@@ -92,6 +93,7 @@
   }
   .id_pw input {
     font-size: 14px;
+    line-height: 55px;
   }
   .check {
     margin-left: 11px;
@@ -119,6 +121,7 @@
     width: 80vw;
     height: 55px;
     background-color: transparent;
+    padding: 0 20px;
   }
   .id_pw:first-child {
     border-radius: 0;
@@ -130,6 +133,7 @@
   }
   .id_pw input {
     font-size: 14px;
+    line-height: 55px;
   }
   .check {
     margin-left: 11px;
