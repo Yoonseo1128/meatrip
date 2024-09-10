@@ -15,15 +15,15 @@
     <!-- css -->
     <link rel="stylesheet" href="./css/layout.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
-    <!-- 파비콘 -->
-    <link rel="icon" href="/img/icons/favicon-16x16.png" />
-
-    <!-- 슬릭 슬라이드 -->
+    <!-- 제이쿼리 -->
     <script src="./js/jquery.min.js"></script>
-    <script src="./js/slick.min.js"></script>
-
+    <!-- 슬릭 슬라이드 -->
     <link rel="stylesheet" href="./css/slick-theme.css" />
     <link rel="stylesheet" href="./css/slick.css" />
+    <script src="./js/slick.min.js"></script>
+
+    <!-- 파비콘 -->
+    <link rel="icon" href="/img/icons/favicon-16x16.png" />
   </head>
   <body>
     <!-- header -->
@@ -36,10 +36,10 @@
         <!--메뉴 -->
         <nav id="menu">
           <ul>
-            <li><a href="./introduce.html">미트립 소개</a></li>
-            <li><a href="./ranking.html">미트립 랭킹</a></li>
-            <li><a href="./board1.html">추천 게시판</a></li>
-            <li><a href="./board2.html">자유 게시판</a></li>
+            <li><a href="./sub/introduce.html">미트립 소개</a></li>
+            <li><a href="./sub/ranking.html">미트립 랭킹</a></li>
+            <li><a href="./sub/board1.html">추천 게시판</a></li>
+            <li><a href="./sub/board2.html">자유 게시판</a></li>
           </ul>
         </nav>
         <!-- 검색 -->
@@ -58,20 +58,20 @@
         </div>
         <!-- 로그인 회원가입 -->
         <div class="login">
-          <a href="./login.html">로그인</a>
+          <a href="./sub/login.html">로그인</a>
           <a href="#">회원가입</a>
         </div>
-        <a href="./login.html"><div class="login_icon"></div></a>
+        <a href="./sub/login.html"><div class="login_icon"></div></a>
         <!-- 메뉴아이콘(모바일) -->
         <nav id="menu_m">
           <ul>
             <li>
               <img src="./img/icons/menu.png" alt="메뉴" />
               <ul class="submenu">
-                <li><a href="./introduce.html">미트립 소개</a></li>
-                <li><a href="./ranking.html">미트립 랭킹</a></li>
-                <li><a href="./board1.html">추천 게시판</a></li>
-                <li><a href="./board2.html">자유 게시판</a></li>
+                <li><a href="./sub/introduce.html">미트립 소개</a></li>
+                <li><a href="./sub/ranking.html">미트립 랭킹</a></li>
+                <li><a href="./sub/board1.html">추천 게시판</a></li>
+                <li><a href="./sub/board2.html">자유 게시판</a></li>
               </ul>
             </li>
           </ul>
@@ -91,8 +91,12 @@
             미트립은 진짜 고기 맛집을 찾는 사람들을 위한 커뮤니티 입니다.<br />
             다양한 사람들과 소통하며 본인만의 맛집을 찾아보세요.
           </p>
-          <div class="introduce_btn">
-            <a href="./introduce.html"><p>미트립 소개</p></a>
+          <div
+            class="introduce_btn"
+            style="cursor: pointer"
+            onclick="location.href='./sub/introduce.html'"
+          >
+            <p>미트립 소개</p>
             <div class="circle"></div>
           </div>
         </div>
@@ -183,7 +187,7 @@
             <div
               class="con2_sec_1"
               style="cursor: pointer"
-              onclick="location.href='./shop_mong.html'"
+              onclick="location.href='./sub/shop_mong.html'"
             >
               <div class="con_img">
                 <img src="/img/main/image 7.png" alt="몽탄" />
@@ -196,7 +200,9 @@
                   <h5>리뷰 356건</h5>
                 </div>
                 <div class="con2_sec_txt_right">
-                  <a href="./shop_mong.html"><div class="more_btn"></div></a>
+                  <a href="./sub/shop_mong.html"
+                    ><div class="more_btn"></div
+                  ></a>
                   <div class="number">
                     <div class="heart"></div>
                     <p>129</p>
@@ -209,7 +215,7 @@
             <div
               class="con2_sec_2"
               style="cursor: pointer"
-              onclick="location.href='./shop_gogong.html'"
+              onclick="location.href='./sub/shop_gogong.html'"
             >
               <div class="con_img">
                 <img src="/img/main/image 8.png" alt="고공" />
@@ -222,7 +228,9 @@
                   <h5>리뷰 156건</h5>
                 </div>
                 <div class="con2_sec_txt_right">
-                  <a href="./shop_gogong.html"><div class="more_btn"></div></a>
+                  <a href="./sub/shop_gogong.html"
+                    ><div class="more_btn"></div
+                  ></a>
                   <div class="number">
                     <div class="heart"></div>
                     <p>127</p>
@@ -235,7 +243,7 @@
             <div
               class="con2_sec_3"
               style="cursor: pointer"
-              onclick="location.href='./shop_sam.html'"
+              onclick="location.href='./sub/shop_sam.html'"
             >
               <div class="con_img">
                 <img src="/img/sub-ranking/samdol.png" alt="삼돌박이" />
@@ -248,7 +256,7 @@
                   <h5>리뷰 389건</h5>
                 </div>
                 <div class="con2_sec_txt_right">
-                  <a href="./shop_sam.html"><div class="more_btn"></div></a>
+                  <a href="./sub/shop_sam.html"><div class="more_btn"></div></a>
                   <div class="number">
                     <div class="heart"></div>
                     <p>186</p>
@@ -470,7 +478,7 @@
           <div
             class="con4_sec"
             style="cursor: pointer"
-            onclick="location.href='./board1.html'"
+            onclick="location.href='./sub/board1.html'"
           >
             <h2>추천 게시판</h2>
             <h3>나만 아는 맛집을<br />추천해주세요!</h3>
@@ -478,12 +486,14 @@
               평소 자주가는 고기집이나 우리 동네<br />
               나만 아는 맛집을 소개해주세요.
             </h4>
-            <div class="write_btn"><a href="./board1.html">글 쓰러가기</a></div>
+            <div class="write_btn">
+              <a href="./sub/board1.html">글 쓰러가기</a>
+            </div>
           </div>
           <div
             class="con4_sec"
             style="cursor: pointer"
-            onclick="location.href='./board2.html'"
+            onclick="location.href='./sub/board2.html'"
           >
             <h2>자유 게시판</h2>
             <h3>
@@ -494,7 +504,9 @@
               고기집에 대한 다양한 이야기들을<br />
               자유롭게 나눌 수 있는 게시판입니다.
             </h4>
-            <div class="write_btn"><a href="./board2.html">글 쓰러가기</a></div>
+            <div class="write_btn">
+              <a href="./sub/board2.html">글 쓰러가기</a>
+            </div>
           </div>
         </div>
       </section>

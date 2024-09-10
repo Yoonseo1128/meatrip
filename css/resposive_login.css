@@ -69,7 +69,7 @@
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .logo {
-    margin-top: 240px;
+    margin-top: 150px;
   }
   .login {
     width: 450px;
@@ -106,7 +106,7 @@
 }
 @media screen and (max-width: 480px) {
   .logo {
-    margin-top: 240px;
+    margin-top: 150px;
   }
   .login {
     width: 80vw;

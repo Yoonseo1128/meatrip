@@ -442,13 +442,13 @@ main {
 }
 /* 두번째 섹션 */
 .con2 {
-  width: 100vw;
+  width: 100%;
   height: fit-content;
   box-sizing: border-box;
   padding-bottom: 200px;
 }
 .con2_wrapper {
-  width: 83vw;
+  width: 83%;
   height: 100%;
   margin: 0 auto;
   margin-top: 0;
@@ -491,8 +491,8 @@ main {
   color: #000;
 }
 .con2_sec {
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: fit-content;
   margin-top: 80px;
   display: flex;
   justify-content: space-between;
